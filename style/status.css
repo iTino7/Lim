@@ -1,0 +1,56 @@
+/*STATUS*/
+
+form {
+  display: flex;
+}
+
+label {
+  font-size: 30px;
+  color: white;
+  margin-left: 10px;
+  font-weight: bolder;
+}
+
+.info {
+  display: flex;
+}
+
+.info p {
+  margin: 10px 0;
+  font-size: 25px;
+  color: white;
+}
+
+.load {
+  display: flex;
+  flex-direction: column;
+}
+
+.load p {
+  color: white;
+  font-size: 20px;
+}
+
+.loadStatus1 {
+  margin: 10px 0;
+  border-radius: 4px;
+  background-color: orange;
+  padding: 10px 30px;
+  max-width: 30%;
+}
+
+.loadStatus2 {
+  margin: 10px 0;
+  border-radius: 4px;
+  background-color: green;
+  padding: 10px 30px;
+  max-width: 70%;
+}
+
+.loadStatus3 {
+  margin: 10px 0 40px 0;
+  border-radius: 4px;
+  background-color: red;
+  padding: 10px 30px;
+  max-width: 10%;
+}
